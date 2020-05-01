@@ -2,7 +2,7 @@
 const express = require('express');
 const router = express.Router();
 
-// require all the controllers 
+// require all the controllers for question
 const {createQuestion, deleteQuestion, createOptions, showQuestions} = require('../controller/api/question');
 
 

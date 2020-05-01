@@ -1,7 +1,8 @@
+// require the express
 const express = require('express');
 const router = express.Router();
 
-
+// getting all the controllers for option
 const {deleteOption,incrementVote} = require('../controller/api/option');
 
 

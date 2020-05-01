@@ -8,6 +8,10 @@ const mongoose = require('mongoose');
 // My entry Route
 const indexRoute = require('./routes/index');
 
+// Middleware
+app.use(express.urlencoded());     
+app.use(express.json());
+
 // Connect to the db
 mongoose.connect('mongodb://localhost/'+process.env.DATABASE,
     { useNewUrlParser:true,
