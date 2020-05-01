@@ -11,11 +11,12 @@ node based polling-API which can be used for the Question and answer based polli
 # PROJECT SETUP
     Note:- npm should be there in your System
 Steps:-
-1.) clone the repository
-2.) cd pollingAPI
-3.) npm install
-4.) npm install // if not nodemon there, than please install:- npm install nodemon
-5.) npm start
+
+1. clone the repository
+2. cd pollingAPI
+3. npm install
+4. npm install // if not nodemon there, than please install:- npm install nodemon
+5. npm start
 
 # API ROUTES
 1. /questions/create -> To create a question
@@ -26,5 +27,6 @@ Steps:-
 6. /questions/:id -> To view a question and it's options
 
 
-Important Note:- There can be any bug, I'm working on it for more improvements and `to make it secure.
+Important Note:- There can be any bug, I'm working on it for more improvements and to make it secure.
+
 #WORK IN PROGRESS....
