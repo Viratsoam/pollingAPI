@@ -2,11 +2,12 @@
 node based polling-API which can be used for the Question and answer based polling result like Quiz App.
 
 # DEPENDENCY
-  1."dotenv": "^8.2.0",
-  2."express": "^4.17.1",
-  3."mongoose": "^5.9.10",
-  4."populate": "^5.0.1",
-  5."nodemon"
+
+1. "dotenv": "^8.2.0",
+2. "express": "^4.17.1",
+3. "mongoose": "^5.9.10",
+4. "populate": "^5.0.1",
+5. "nodemon"
   
 # PROJECT SETUP
     Note:- npm should be there in your System
